@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Nyoba</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d37debc9e5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="menu"><a href="">MENU</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="https://steamcommunity.com/id/sh1rush1">TOUR</a></li>
+                    <li><a href="fitur.html">FITUR</a></li>
+                    <li><a href="fitur.html">KOLEKSI</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="kontak.html">KONTAK</a></li>
+                    <a href="" class="login">Login</a>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Hubungi Saya</h1>
+    </section>
+    
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+<!hubungi>
+
+    <section class="lokasi">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.3048378039152!2d107.62813615093775!3d-6.9733164949375785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e9adf177bf8d%3A0x437398556f9fa03!2sTelkom%20University!5e0!3m2!1sen!2sid!4v1653735876483!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="hubungi2">
+        <div class="row">
+            <div class="hubungi-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Jl. ABC, DEF nagunan, No.69</h5>
+                        <p>Bandung, Jawa Barat, Indonesia</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+62 14045</h5>
+                        <p>Senin sampai dengan Jumat, 7 AM - 16 PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>Emailku@blablabla.com</h5>
+                        <p>Email saya jika berkeperluan</p>
+                    </span>
+                </div>
+            </div>
+            <div class="hubungi-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Masukkan Nama Anda" required>
+                    <input type="email" name="email" placeholder="Masukkan Email Anda" required>
+                    <input type="text" name="subject" placeholder="Masukkan Keperluan Anda" required>
+                    <textarea rows="8" name="message" placeholder="Pesan" required></textarea>
+                    <button type="submit" class="hero-btn red -btn">KIRIM PESAN</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<!Kopiraig>
+
+    <section class="footer">
+        <h4>Tentang Saia</h4>
+        <p>Ya pokoknya intinya tentang saya gitu aja</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/maula.haqq"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/sh1rush1"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/if.sh1rush1/"><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p> Dibuat oleh <i class="fa-solid fa-at"></i> Maula dari D4 Teknoloi Rekayasa Multimedia</p>
+    </section>
+
+    
+</body>
+</html>
